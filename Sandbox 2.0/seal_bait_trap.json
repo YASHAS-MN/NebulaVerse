@@ -1,0 +1,11 @@
+{
+    "data": {
+        "miner_id": "Victus_Node_01",
+        "timestamp": "Sat Apr 25 17:41:56 2026",
+        "asset_detected": "bait_trap",
+        "violation": "Unauthorized Access to wallet.dat",
+        "verdict": "MALICIOUS",
+        "action": "TERMINATED"
+    },
+    "signature_hex": "304502205ec5cf768399cee2f802be62633e578d0a55ec90bfd96bffcf7a5fa0d6d03e66022100dd969c679e8cd29615fcd7a787bcaa8da474daa260fbf3ad443cbf9d02d970c7"
+}

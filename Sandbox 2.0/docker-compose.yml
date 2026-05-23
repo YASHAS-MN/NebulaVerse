@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  detonation-chamber:
+    image: alpine
+    runtime: runsc  # This ensures gVisor is used
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'    # Max 10% of one CPU core
+          memory: 128M    # Max 128MB RAM
+    command: sleep 1000   # Keep it alive so we can check it
